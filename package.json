@@ -7,7 +7,8 @@
     "types": "./index.d.ts",
     "bin": "./tests/script.ts",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "build": "tsc"
     },
     "dependencies": {
         "cohere-ai": "^7.14.0",
