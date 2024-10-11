@@ -2,8 +2,6 @@
 
 ![](banner.png)
 
-[![npm shield](https://img.shields.io/npm/v/cohere-ai)](https://www.npmjs.com/package/cohere-api-test)
-
 ## Cloud Tests
 
 This directory contains tests that you can run on your cohere container to check that it supports all of the parameters that we would expect it to support.
@@ -13,7 +11,7 @@ This directory contains tests that you can run on your cohere container to check
 Running the tests from npm is very simple. Just run the following command:
 
 ```
-npx cohere-ai@latest \
+npx --yes github:billytrend-cohere/cohere-api-test \
     --baseUrl https://api.cohere.com \
     --apiKey my_key \
     --featuresToTest chat,embed,rerank,chat-2,rerank-2,embed-2
