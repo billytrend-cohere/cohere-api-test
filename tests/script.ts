@@ -1,4 +1,4 @@
-#!/usr/bin/env ts-node
+#!/usr/bin/env tsx
 
 import * as jest from "jest-cli"
 import { config } from "./convict"
