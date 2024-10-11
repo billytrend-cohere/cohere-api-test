@@ -4,6 +4,7 @@
     "private": false,
     "repository": "https://github.com/cohere-ai/cohere-api-test",
     "bin": "./tests/script.ts",
+    "type": "module",
     "scripts": {
         "test": "jest",
         "build": "tsc"
