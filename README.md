@@ -1,4 +1,4 @@
-# Cohere TypeScript SDK
+# Cohere cloud tests
 
 ![](banner.png)
 
